@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include customized_workspace *.css
+recursive-include customized_workspace *.csv
+recursive-include customized_workspace *.html
+recursive-include customized_workspace *.ico
+recursive-include customized_workspace *.js
+recursive-include customized_workspace *.json
+recursive-include customized_workspace *.md
+recursive-include customized_workspace *.png
+recursive-include customized_workspace *.py
+recursive-include customized_workspace *.svg
+recursive-include customized_workspace *.txt
+recursive-exclude customized_workspace *.pyc
