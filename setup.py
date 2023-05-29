@@ -10,7 +10,7 @@ setup(
 	name="customized_workspace",
 	version=version,
 	description="Customized Workspace for Frappe",
-	author="Anupam",
+	author="Anupam Kumar",
 	author_email="hello@anupamvs.dev",
 	packages=find_packages(),
 	zip_safe=False,

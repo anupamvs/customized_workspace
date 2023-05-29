@@ -1,0 +1,69 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-05-29 15:13:44.246499",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "hide_sidebar",
+  "hide_edit_button",
+  "hide_create_workspace_button",
+  "column_break_7idou",
+  "applicable_for_roles"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "fieldname": "hide_sidebar",
+   "fieldtype": "Check",
+   "label": "Hide Sidebar"
+  },
+  {
+   "default": "0",
+   "fieldname": "hide_edit_button",
+   "fieldtype": "Check",
+   "label": "Hide Edit Button"
+  },
+  {
+   "default": "0",
+   "fieldname": "hide_create_workspace_button",
+   "fieldtype": "Check",
+   "label": "Hide Create Workspace Button"
+  },
+  {
+   "fieldname": "applicable_for_roles",
+   "fieldtype": "Table MultiSelect",
+   "label": "Applicable for Roles",
+   "options": "Customized Workspace Role"
+  },
+  {
+   "fieldname": "column_break_7idou",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-05-29 15:14:05.242583",
+ "modified_by": "Administrator",
+ "module": "Customized Workspace",
+ "name": "Customized Workspace Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

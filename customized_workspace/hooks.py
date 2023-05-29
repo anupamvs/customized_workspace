@@ -2,7 +2,7 @@ from . import __version__ as app_version
 
 app_name = "customized_workspace"
 app_title = "Customized Workspace"
-app_publisher = "Anupam"
+app_publisher = "Anupam Kumar"
 app_description = "Customized Workspace for Frappe"
 app_email = "hello@anupamvs.dev"
 app_license = "MIT"
@@ -12,7 +12,8 @@ app_license = "MIT"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/customized_workspace/css/customized_workspace.css"
-# app_include_js = "/assets/customized_workspace/js/customized_workspace.js"
+app_include_js = "/assets/customized_workspace/js/customized_workspace.js"
+boot_session = "customized_workspace.api.boot_session"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/customized_workspace/css/customized_workspace.css"
